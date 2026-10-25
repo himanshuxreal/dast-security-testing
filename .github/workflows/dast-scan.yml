@@ -1,0 +1,47 @@
+name: DAST Security Scan
+
+'on':
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  dast_scan:
+    name: Run OWASP ZAP Baseline Scan
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate Target URL
+        env:
+          TARGET: ${{ secrets.TARGET_URL }}
+        run: |
+          echo "Verifying TARGET_URL configuration..."
+          if [ -z "$TARGET" ]; then
+            echo "::error title=Configuration Error::TARGET_URL secret is missing. Please configure 'TARGET_URL' under Settings -> Secrets and variables -> Actions."
+            exit 1
+          fi
+
+          if ! echo "$TARGET" | grep -Eq '^https?://[a-zA-Z0-9.-]+(:[0-9]+)?(/.*)?$'; then
+            echo "::error title=Configuration Error::TARGET_URL format is invalid. Ensure it begins with http:// or https:// and has a valid host address."
+            exit 1
+          fi
+
+          echo "TARGET_URL format is valid. Proceeding with scan."
+
+      - name: Run OWASP ZAP Baseline Scan
+        uses: zaproxy/action-baseline@v0.15.0
+        with:
+          target: ${{ secrets.TARGET_URL }}
+          artifact_name: 'zap-baseline-report'
+          allow_issue_writing: false
+          fail_action: false
