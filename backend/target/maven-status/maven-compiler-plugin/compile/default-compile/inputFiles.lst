@@ -1,18 +1,18 @@
-C:\HABIT TRACKER\backend\src\main\java\com\habitx\dao\GoalDAO.java
-C:\HABIT TRACKER\backend\src\main\java\com\habitx\dao\HabitDAO.java
-C:\HABIT TRACKER\backend\src\main\java\com\habitx\dao\UserDAO.java
-C:\HABIT TRACKER\backend\src\main\java\com\habitx\db\DatabaseManager.java
-C:\HABIT TRACKER\backend\src\main\java\com\habitx\model\Goal.java
-C:\HABIT TRACKER\backend\src\main\java\com\habitx\model\Habit.java
-C:\HABIT TRACKER\backend\src\main\java\com\habitx\model\HabitLog.java
-C:\HABIT TRACKER\backend\src\main\java\com\habitx\model\User.java
-C:\HABIT TRACKER\backend\src\main\java\com\habitx\servlet\AnalyticsServlet.java
-C:\HABIT TRACKER\backend\src\main\java\com\habitx\servlet\CorsFilter.java
-C:\HABIT TRACKER\backend\src\main\java\com\habitx\servlet\DashboardServlet.java
-C:\HABIT TRACKER\backend\src\main\java\com\habitx\servlet\GoalProgressServlet.java
-C:\HABIT TRACKER\backend\src\main\java\com\habitx\servlet\GoalServlet.java
-C:\HABIT TRACKER\backend\src\main\java\com\habitx\servlet\HabitLogServlet.java
-C:\HABIT TRACKER\backend\src\main\java\com\habitx\servlet\HabitServlet.java
-C:\HABIT TRACKER\backend\src\main\java\com\habitx\servlet\LoginServlet.java
-C:\HABIT TRACKER\backend\src\main\java\com\habitx\servlet\RegisterServlet.java
-C:\HABIT TRACKER\backend\src\main\java\com\habitx\servlet\ServletUtils.java
+C:\dast-security-testing\backend\src\main\java\com\habitx\dao\GoalDAO.java
+C:\dast-security-testing\backend\src\main\java\com\habitx\dao\HabitDAO.java
+C:\dast-security-testing\backend\src\main\java\com\habitx\dao\UserDAO.java
+C:\dast-security-testing\backend\src\main\java\com\habitx\db\DatabaseManager.java
+C:\dast-security-testing\backend\src\main\java\com\habitx\model\Goal.java
+C:\dast-security-testing\backend\src\main\java\com\habitx\model\Habit.java
+C:\dast-security-testing\backend\src\main\java\com\habitx\model\HabitLog.java
+C:\dast-security-testing\backend\src\main\java\com\habitx\model\User.java
+C:\dast-security-testing\backend\src\main\java\com\habitx\servlet\AnalyticsServlet.java
+C:\dast-security-testing\backend\src\main\java\com\habitx\servlet\CorsFilter.java
+C:\dast-security-testing\backend\src\main\java\com\habitx\servlet\DashboardServlet.java
+C:\dast-security-testing\backend\src\main\java\com\habitx\servlet\GoalProgressServlet.java
+C:\dast-security-testing\backend\src\main\java\com\habitx\servlet\GoalServlet.java
+C:\dast-security-testing\backend\src\main\java\com\habitx\servlet\HabitLogServlet.java
+C:\dast-security-testing\backend\src\main\java\com\habitx\servlet\HabitServlet.java
+C:\dast-security-testing\backend\src\main\java\com\habitx\servlet\LoginServlet.java
+C:\dast-security-testing\backend\src\main\java\com\habitx\servlet\RegisterServlet.java
+C:\dast-security-testing\backend\src\main\java\com\habitx\servlet\ServletUtils.java
